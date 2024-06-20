@@ -5,7 +5,7 @@
 }
 
 /* -------------- */
-/* Background */
+/* VIDEO Background */
 /* -------------- */
 
 .backgroundContainer {
@@ -17,6 +17,7 @@
     z-index: -1;
     overflow: hidden;
 }
+
 .background {
     min-width: 100%;
     min-height: 100%;
@@ -30,7 +31,7 @@
 }
 
 /* -------------- */
-/* NAV BAR */
+/* NAVIGATION BAR */
 /* -------------- */
 
 .header {
@@ -57,6 +58,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    text-shadow: 0 0 0.9em rgb(255, 255, 255);
 }
 
 .left-side-container {
@@ -72,8 +74,96 @@ a:hover {
     height: 50px;
     width: auto;
 }
+.nav-image:hover {
+    box-shadow: 0 0 0.6em white;
+}
 
 .nav-title {
     font-size: 24px;
     font-weight: 900;
+}
+
+.nav-title:hover {
+    text-shadow: 0 0 0.9em rgb(255, 255, 255);
+}
+
+/* -------------- */
+/* Hero image section*/
+/* -------------- */
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 9em auto 0 auto;
+    border-radius: 1.5em;
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+}
+
+.hero-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+}
+
+.hero-title {
+    font-size: 3.5em;
+    margin-bottom: 1em;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    text-align: center;
+    width: 70%;
+}
+
+.hero-message {
+    font-size: 1.3em;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 3em;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        rgba(36, 52, 76, 0.5),
+        rgba(36, 52, 76, 0.9)
+    );
+    border: 0.2em solid white;
+    border-radius: 1.2em;
+    transition: 0.3s;
+    width: 9em;
+    height: 3em;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.hero-button:hover {
+    box-shadow: 0 0 0.6em white;
+}
+
+.hero-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 5em;
+}
+
+.hero-image {
+    width: 35vw;
+}
+
+.photo-credit {
+    color: #ddd;
+    font-size: 1.3em;
 }
