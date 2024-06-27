@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* -------------- */
 /* VIDEO Background */
 /* -------------- */
@@ -113,7 +119,7 @@ a:hover {
 }
 
 .hero-title {
-    font-size: 3.5em;
+    font-size: 2.1em;
     margin-bottom: 1em;
     text-shadow: 0 0 0.8em rgb(255, 255, 255);
     text-align: center;
@@ -121,9 +127,11 @@ a:hover {
 }
 
 .hero-message {
-    font-size: 1.3em;
+    font-size: 1.1em;
     line-height: 1.7em;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .button-container {
@@ -135,7 +143,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(
-        rgba(36, 52, 76, 0.5),
+        rgba(36, 52, 76, 0.6),
         rgba(36, 52, 76, 0.9)
     );
     border: 0.2em solid white;
@@ -166,4 +174,63 @@ a:hover {
 .photo-credit {
     color: #ddd;
     font-size: 1.3em;
+}
+
+.author-video-BG-credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 10%;
+}
+
+.inner-background {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+}
+
+.credit-text {
+    color: #ddd;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* -------------- */
+/* Hero image section*/
+/* -------------- */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    flex-direction: column;
+    /* padding: 150px 0; */
+    width: 100%;
+    background-image: linear-gradient(rgba(36, 52, 76, 1), rgba(36, 52, 76, 1));
+    box-shadow: 0 0 0.6em white;
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.1em;
+    color: #ddd;
+    margin-top: 1rem;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-top: 2em;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: 3px solid #fff;
+    /* width: 200px;
+    height: 200px; */
+    padding: 10px;
 }
