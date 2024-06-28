@@ -221,7 +221,7 @@ a:hover {
         rgba(36, 52, 76, 0.9),
         rgba(36, 52, 76, 0.9)
     );
-    box-shadow: 0 0 0.6em red;
+    box-shadow: 0 0 0.6em #fff;
     z-index: 2;
 }
 
@@ -267,7 +267,7 @@ a:hover {
 
 .card__image:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 15px #fff;
 }
 
 /* -------------- */
@@ -361,7 +361,7 @@ a:hover {
         rgba(36, 52, 76, 0.9),
         rgba(36, 52, 76, 0.9)
     );
-    box-shadow: 0 0 0.6em red;
+    box-shadow: 0 0 0.6em #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -372,5 +372,38 @@ a:hover {
     text-shadow: 0 0 0.8em rgb(255, 255, 255);
     font-size: 2.1em;
     color: #ddd;
-    margin-top: 3%;
+    margin-top: 2%;
+}
+
+.gallery__image-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 5%;
+    gap: 10px;
+}
+
+.gallery__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.gallery__card-image {
+    transition: transform 0.2s; /* Animation */
+}
+
+.gallery__card-image:hover {
+    transform: scale(1.05);
+}
+
+.gallery__card:hover {
+    box-shadow: 0 0 0.6em #fff;
+}
+
+.gallery__character-name {
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    font-size: 1.5em;
+    color: #ddd;
 }
