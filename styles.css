@@ -274,6 +274,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: auto;
+    margin-bottom: 1%;
 }
 
 .author__inner-background {
@@ -313,9 +314,14 @@ a:hover {
 
 .character-quote {
     text-align: center;
-    color: #ddd;
-    font-size: 3rem;
-    color: #fff;
+    color: black;
+    font-size: 2rem;
     font-weight: bold;
     margin-top: 5%;
+}
+
+.character {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
 }
