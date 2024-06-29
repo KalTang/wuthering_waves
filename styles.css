@@ -302,7 +302,7 @@ a:hover {
 /* -------------- */
 
 .second-background__container {
-    background-image: url("./images/characters/char2.jpg");
+    background-image: url("./images/backgrounds/char2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -431,4 +431,14 @@ a:hover {
 .character-artist-source__text {
     color: #ddd;
     font-size: 20px;
+}
+
+.third-background {
+    background-image: url(./images/backgrounds/Jinshi.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
 }
