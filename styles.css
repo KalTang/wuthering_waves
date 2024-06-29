@@ -249,7 +249,6 @@ a:hover {
     /* width: 200px;
     height: 200px; */
     padding: 10px;
-    transform-style: preserve-3d;
 }
 
 .card__text {
@@ -467,12 +466,11 @@ a:hover {
 }
 
 .form__container-inner-background:hover {
-    box-shadow: 0 0 0.8em rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.2em rgb(255, 255, 255);
 }
 
 .form__title {
     display: flex;
-    justify-content: center;
     color: #ddd;
     font-size: 2.4em;
     text-shadow: 0 0 0.8em rgb(255, 255, 255);
@@ -504,9 +502,25 @@ a:hover {
 }
 
 .form__button {
+    margin-top: 10%;
     padding: 15px 30px;
     width: 50%;
     font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: #ddd;
+    border: 0.08em solid white;
+    border-radius: 1.2em;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    border-radius: 1.2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.form__button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    text-shadow: none;
+    box-shadow: 0 0 1.3em rgb(255, 255, 255);
 }
 
 /* -------------- */
