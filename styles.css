@@ -218,8 +218,8 @@ a:hover {
     /* padding: 150px 0; */
     width: 100%;
     background-image: linear-gradient(
-        rgba(36, 52, 76, 0.9),
-        rgba(36, 52, 76, 0.9)
+        rgba(36, 52, 76, 0.7),
+        rgba(36, 52, 76, 0.7)
     );
     box-shadow: 0 0 0.6em #fff;
     z-index: 2;
@@ -358,8 +358,8 @@ a:hover {
 
 .gallery__container {
     background-image: linear-gradient(
-        rgba(36, 52, 76, 0.9),
-        rgba(36, 52, 76, 0.9)
+        rgba(36, 52, 76, 0.5),
+        rgba(36, 52, 76, 0.5)
     );
     box-shadow: 0 0 0.6em #fff;
     display: flex;
@@ -369,18 +369,20 @@ a:hover {
 }
 
 .gallery__title {
-    text-shadow: 0 0 0.8em rgb(255, 255, 255);
-    font-size: 2.1em;
-    color: #ddd;
+    text-shadow: 0 0 0.9em red;
+    font-size: 2.5em;
+    color: white;
     margin-top: 2%;
+    margin-bottom: 4%;
+    text-decoration: underline;
 }
 
 .gallery__image-grid {
     display: grid;
     justify-content: center;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(5, 1fr);
     margin-bottom: 5%;
-    gap: 10px;
+    gap: 30px;
 }
 
 .gallery__card {
@@ -392,6 +394,8 @@ a:hover {
 }
 .gallery__card-image {
     transition: transform 0.2s; /* Animation */
+    height: 130px;
+    width: auto;
 }
 
 .gallery__card-image:hover {
