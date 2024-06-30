@@ -392,6 +392,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 4%;
+    /* background-color: #ab4a2d; */
 }
 .gallery__card-image {
     transition: transform 0.2s; /* Animation */
@@ -403,15 +404,23 @@ a:hover {
     transform: scale(1.05);
 }
 
-.gallery__card:hover {
+/* .gallery__card:hover {
     box-shadow: 0 0 0.6em #fff;
-}
+} */
 
 .gallery__character-name {
     text-shadow: 0 0 0.8em rgb(255, 255, 255);
     font-size: 1.5em;
     color: #ddd;
 }
+
+/* -------------- */
+/* Gallery elements */
+/* -------------- */
+
+/* .gallery__card.fusion:hover {
+    background-color: #ff6b35;
+} */
 
 /* -------------- */
 /* Artist source */
@@ -440,6 +449,9 @@ a:hover {
     position: relative;
     background-attachment: fixed;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* -------------- */
@@ -494,6 +506,11 @@ a:hover {
     border-bottom: 1px solid rgb(255, 255, 255);
     background-color: transparent;
     margin-bottom: 4%;
+    outline: none;
+}
+
+.form__field:hover {
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.9);
 }
 
 ::placeholder {
@@ -530,3 +547,11 @@ a:hover {
 /* -------------- */
 /* Footer*/
 /* -------------- */
+
+footer {
+    display: flex;
+    padding: 25px 25px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ddd;
+    justify-content: center;
+}
