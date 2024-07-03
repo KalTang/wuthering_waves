@@ -10,6 +10,10 @@ body {
     justify-content: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* -------------- */
 /* VIDEO Background */
 /* -------------- */
@@ -591,4 +595,69 @@ footer {
     justify-content: center;
     font-size: 1.5rem;
     margin-top: 0;
+}
+
+/* -------------- */
+/* Mobile queries*/
+/* -------------- */
+
+/* for-phone-only */
+@media (max-width: 599px) {
+    ul {
+        flex-direction: column;
+    }
+    a {
+        font-size: 1em;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-title {
+        font-size: 25x;
+        margin-top: 3%;
+        text-decoration: underline;
+    }
+    .hero-message {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .hero-button {
+        width: 20em;
+        height: 3em;
+        font-size: 18px;
+        text-align: center;
+    }
+    .hero-image {
+        width: 85vw;
+    }
+
+    .photo-credit {
+        font-size: 1.1em;
+        margin-top: 3%;
+    }
+}
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) {
+}
+
+/* for-desktop-up */
+@media (min-width: 1200px) {
+}
+
+/* for-medium-desktop-up */
+@media (min-width: 1400px) {
+}
+
+/* for-big-desktop-up */
+@media (min-width: 1800px) {
 }
