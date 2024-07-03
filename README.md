@@ -36,15 +36,15 @@
 
 ## :file_folder: &nbsp; SUPPORTING DOCUMENTS
 
-### Wuthering Waves Official [Website]("https://wutheringwaves.kurogames.com/en/main")
+### Wuthering Waves Official [Website](https://wutheringwaves.kurogames.com/en/main)
 
 ### Website inspiration: [@Lyrenide](https://criosyom.github.io/Hakurei_Shrine/#)
 
 #### Image sources:
 
-1. YouTube Video Wallpaper: [@LiveWallpaper]("https://www.youtube.com/watch?v=_yjk-doXLiY&ab_channel=LiveWallpaperCentre")
-2. Monster Icons: [@wanderer.moe]("https://wanderer.moe/wuthering-waves/monster-icons")
-3. Character Icons: [@wanderer.moe]("https://wanderer.moe/wuthering-waves/character-icons") & [@Wutheringlab]("https://wutheringlab.com/wp-content/uploads//Jinshi_icon-150x150.png")
-4. Background Wallpapers: [@Pixiv]("https://www.pixiv.net/en/artworks/118482458")
+1. YouTube Video Wallpaper: [@LiveWallpaper](https://www.youtube.com/watch?v=_yjk-doXLiY&ab_channel=LiveWallpaperCentre)
+2. Monster Icons: [@wanderer.moe](https://wanderer.moe/wuthering-waves/monster-icons)
+3. Character Icons: [@wanderer.moe](https://wanderer.moe/wuthering-waves/character-icons) & [@Wutheringlab](https://wutheringlab.com/wp-content/uploads//Jinshi_icon-150x150.png)
+4. Background Wallpapers: [@Pixiv](https://www.pixiv.net/en/artworks/118482458)
 
 </br>
