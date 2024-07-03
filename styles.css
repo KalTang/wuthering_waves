@@ -149,6 +149,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-image: linear-gradient(
         rgba(36, 52, 76, 0.6),
         rgba(36, 52, 76, 0.9)
@@ -160,6 +161,8 @@ a:hover {
     height: 3em;
     margin: 0 auto;
     font-size: 1.2em;
+    width: 100%;
+    padding: 10px;
 }
 
 .hero-button:hover {
