@@ -9,7 +9,7 @@
 </div>
 
 </br>
-<strong> Live Application: </strong> <a target="blank_"> Coming soon</a> <br/>
+<strong> Live Application: </strong> <a target="blank_" href="https://kaltang.github.io/wuthering_waves/">Wuthering Waves</a> <br/>
 <br/>
 <strong>App type:</strong> Fan website <br/>
 <strong>Description:</strong> A landing page of a new recent game that is available on mobile and desktop called Wuthering Waves. Made with pure html and css.
