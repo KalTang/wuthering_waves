@@ -526,7 +526,7 @@ a:hover {
     margin-top: 10%;
     padding: 15px 30px;
     width: 50%;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: bold;
     background-color: transparent;
     color: #ddd;
@@ -552,7 +552,7 @@ a:hover {
 }
 .social-media__icons {
     width: 35px;
-    height: 35px;
+    height: auto;
     display: block;
     margin: 5px;
     transition: transform 0.2s; /* Animation */
@@ -701,6 +701,32 @@ footer {
     }
     .gallery__character-name {
         font-size: 1.4em;
+    }
+    .form__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form__container-inner-background {
+        width: 100%;
+    }
+    .form__title {
+        font-size: 2.2em;
+    }
+
+    .form__field {
+        font-size: 1em;
+    }
+
+    .form__button {
+        width: 90%;
+        font-size: 1em;
+    }
+    .social-media__icons {
+        width: 25px;
+        height: auto;
     }
 }
 
