@@ -540,6 +540,25 @@ a:hover {
     box-shadow: 0 0 1.3em rgb(255, 255, 255);
 }
 
+.social-media__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.social-media__icons {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 5px;
+    transition: transform 0.2s; /* Animation */
+}
+
+.social-media__icons:hover {
+    box-shadow: 0 0 0.9em #fff;
+    transform: scale(1.1);
+}
+
 /* -------------- */
 /* Background Artist source */
 /* -------------- */
