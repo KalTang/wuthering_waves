@@ -14,8 +14,8 @@
 <strong>App type:</strong> Fan website <br/>
 <strong>Description:</strong> A landing page of a new recent game that is available on mobile and desktop called Wuthering Waves. Made with pure html and css.
 <br/>
-<strong>Languages:</strong> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" align="center" width="15" height="15" alt="HTML5" />
-<img src="https://cdn.simpleicons.org/css3/1572B6" align="center" width="15" height="15" alt="HTML5" />, and for the footer year: <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" align="center" width="15" height="15" alt="JavaScript" />
+<strong>Languages:</strong> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" align="right" width="15" height="15" alt="HTML5" />
+<img src="https://cdn.simpleicons.org/css3/1572B6" align="right" width="15" height="15" alt="HTML5" />, and for the footer year: <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" align="right" width="15" height="15" alt="JavaScript" />
 <br/>
 </br>
 
