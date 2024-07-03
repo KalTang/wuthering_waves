@@ -19,8 +19,6 @@
 <img src="https://cdn.simpleicons.org/css3/1572B6"  width="15" height="15" alt="CSS3" />
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="15" height="15" alt="JavaScript" />
 
-<br clear="right"/>
-<br/>
 </br>
 
 ## :bookmark_tabs: &nbsp; FEATURE LIST
