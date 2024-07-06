@@ -115,6 +115,7 @@ a:hover {
     margin: 9em auto 0 auto;
     border-radius: 1.5em;
     box-shadow: 0 0 2em rgb(69, 69, 69);
+    padding: 1em;
 }
 
 .hero-left-side {
@@ -136,9 +137,11 @@ a:hover {
 .hero-message {
     font-size: 1.1em;
     line-height: 1.7em;
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .button-container {
@@ -181,9 +184,15 @@ a:hover {
     width: 35vw;
 }
 
-.photo-credit {
+.photo-credit__text {
     color: #ddd;
-    font-size: 1.3em;
+    font-size: 1em;
+    margin-top: 2%;
+}
+
+.photo-credit__text-author {
+    text-decoration: underline;
+    font-size: 1em;
 }
 
 /* -------------- */
@@ -331,7 +340,7 @@ a:hover {
     font-size: 2em;
     font-weight: bold;
     margin-top: 5%;
-    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
+    text-shadow: 2px 2px 2px #fff;
 }
 
 .character {
@@ -622,11 +631,13 @@ footer {
     .hero-title {
         font-size: 25x;
         margin-top: 3%;
-        text-decoration: underline;
     }
     .hero-message {
-        text-align: center;
+        text-align: left;
         font-size: 18px;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
     .hero-button {
@@ -647,7 +658,7 @@ footer {
     /* credits */
 
     .credit-text {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     /* card section */
@@ -736,7 +747,6 @@ footer {
 /* for-tablet-portrait-up */
 @media (min-width: 600px) {
 }
-
 /* for-tablet-landscape-up */
 @media (min-width: 900px) {
 }
