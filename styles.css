@@ -184,17 +184,6 @@ a:hover {
     width: 35vw;
 }
 
-.photo-credit__text {
-    color: #ddd;
-    font-size: 1em;
-    margin-top: 2%;
-}
-
-.photo-credit__text-author {
-    text-decoration: underline;
-    font-size: 1em;
-}
-
 /* -------------- */
 /* Video BG credit source*/
 /* -------------- */
@@ -204,22 +193,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: auto;
-    margin-top: 15%;
     margin-bottom: 0;
-}
-
-.inner-background {
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    padding: 2px;
-}
-
-.credit-text {
-    color: #ddd;
-    font-size: 20px;
-    text-align: center;
 }
 
 /* -------------- */
@@ -289,29 +263,6 @@ a:hover {
 /* card section credit source*/
 /* -------------- */
 
-.author__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    margin-bottom: 0;
-}
-
-.author__inner-background {
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    padding: 5px;
-}
-
-.author__credit-text {
-    color: #ddd;
-    font-size: 18px;
-    text-align: center;
-    font-size: 20px;
-}
-
 /* -------------- */
 /* 2nd background */
 /* -------------- */
@@ -348,23 +299,6 @@ a:hover {
     font-size: 2em;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
-}
-
-/* 2nd background source */
-
-.second-background__inner-background {
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    padding: 5px;
-    margin-bottom: 0;
-    margin-top: 15%;
-}
-
-.second-background__author-text {
-    color: #ddd;
-    font-size: 20px;
 }
 
 /* -------------- */
@@ -441,21 +375,6 @@ a:hover {
 /* -------------- */
 /* Artist source */
 /* -------------- */
-
-.character-artist-source__inner-background {
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    padding: 5px;
-    margin-bottom: 0;
-    margin-top: 5%;
-}
-
-.character-artist-source__text {
-    color: #ddd;
-    font-size: 20px;
-}
 
 .third-background {
     background-image: url(./images/backgrounds/Jinshi.png);
@@ -576,8 +495,22 @@ a:hover {
 }
 
 /* -------------- */
-/* Background Artist source */
+/* Artist source */
 /* -------------- */
+
+.inner-background {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 2px;
+}
+
+.credit-text {
+    color: #ddd;
+    font-size: 20px;
+    text-align: center;
+}
 
 .source__inner-background {
     background-color: rgba(0, 0, 0, 0.7);
@@ -601,11 +534,11 @@ a:hover {
 
 footer {
     display: flex;
-    padding: 25px 25px;
+    padding: 20px 20px;
     background-color: rgba(0, 0, 0, 0.7);
     color: #ddd;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1em;
     margin-top: 0;
 }
 
@@ -699,10 +632,15 @@ footer {
         text-align: center;
         font-size: 1.5em;
     }
-
     .character {
         font-size: 1.5em;
     }
+
+    /* spacing between character quote and credit source */
+    #top {
+        margin-top: 5%;
+    }
+
     /* Gallery section */
 
     .gallery__title {
