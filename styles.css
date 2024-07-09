@@ -325,7 +325,6 @@ a:hover {
     color: white;
     margin-top: 2%;
     margin-bottom: 4%;
-    text-decoration: underline;
 }
 
 .gallery__image-grid {
@@ -512,22 +511,6 @@ a:hover {
     text-align: center;
 }
 
-.source__inner-background {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: auto;
-    padding: 15px;
-    text-align: center;
-    margin-top: auto;
-}
-.source__text {
-    color: #ddd;
-    font-size: 1.3rem;
-}
-
-.source__link {
-    color: red;
-}
-
 /* -------------- */
 /* Footer*/
 /* -------------- */
@@ -643,21 +626,41 @@ footer {
 
     /* Gallery section */
 
+    .gallery__card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .gallery__card:hover,
+    .gallery__card:active {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    }
+
+    .gallery__card-image {
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .gallery__card:hover .gallery__card-image,
+    .gallery__card:active .gallery__card-image {
+        opacity: 0.8;
+    }
+
     .gallery__title {
         font-size: 2em;
     }
 
     .gallery__image-grid {
         grid-template-columns: repeat(3, 1fr);
+        gap: 30px 50px;
+        padding: 0 15px;
     }
 
     .gallery__card-image {
-        height: 100px;
+        height: 90px;
         width: auto;
-        gap: 2px;
     }
     .gallery__character-name {
-        font-size: 1.4em;
+        font-size: 1.2em;
         text-align: center;
     }
     .form__container {
@@ -665,6 +668,11 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    /*  */
+
+    .gallery__card:hover {
     }
 
     .form__container-inner-background {
